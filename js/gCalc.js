@@ -26,7 +26,6 @@ export class gCalc {
   }
 
   lifeLeft(currentDate){
-    debugger;
     let myAge = (this.determineAgeSeconds(currentDate) / 31536000).toFixed(3);
     myAge = Math.abs(Math.round(myAge) / 31536000).toFixed(3);
     let timeLeft = this.lifeExpectancy - myAge;
