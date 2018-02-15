@@ -20,14 +20,6 @@ export class gCalc {
       return Math.abs(Math.round(myAge));
   }
 
-  // timeInYears(currentDate){
-  //   let today = new Date(currentDate.birthDate);
-  //   let born = new Date(this.birthDate)
-  //   let myAge = (born.getTime() - today.getTime()) / 1000;
-  //   return Math.abs(Math.round(myAge) / 31536000).toFixed(3);
-  // }
-
-
   timeInYears(currentDate){
     let years = (this.determineAgeSeconds(currentDate) / 31536000).toFixed(3);
     return years;
