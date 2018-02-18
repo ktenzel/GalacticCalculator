@@ -8,7 +8,6 @@ $(document).ready(function() {
     let currentDate = new Date();
     let month = currentDate.getMonth() + 1;
     let currentGCalc = new gCalc(currentDate.getFullYear() + "-" + month + "-" + currentDate.getDate());
-    debugger;
     let lifeExpectancy = parseInt($('#expectancy').val());
     let myAge = new gCalc(birthDate, lifeExpectancy);
     let output = myAge.determineAgeSeconds(currentGCalc);
