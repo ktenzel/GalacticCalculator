@@ -1,7 +1,7 @@
 {
   "name": "gcalc",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application to determine the difference in time between two dates and convert that time into seconds. It will then convert the time difference in year to the varying years of different planets.",
   "main": "index.js",
   "scripts": {
     "test": "karma start karma.conf.js"
